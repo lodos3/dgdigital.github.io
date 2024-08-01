@@ -279,7 +279,7 @@
                 const rect = card.getBoundingClientRect();
                 const cardMiddle = rect.top + rect.height / 2;
 
-                if (cardMiddle >= windowHeight * 0.25 && cardMiddle <= windowHeight * 0.75) {
+                if (cardMiddle >= windowHeight * 0.25 && cardMiddle <= windowHeight * 0.85) {
                     card.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
             });
