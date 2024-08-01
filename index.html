@@ -47,82 +47,93 @@
        </div>
      </header>
    
-     <!-- Services Section -->
-     <section id="services" class="py-5 bg-light">
-       <div class="container">
-         <h2 class="text-center mb-5">Our Premium Services</h2>
-         <div class="row g-4">
-           <!-- Service Item -->
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">Website Development</h3>
-                 <p class="card-text">Crafting visually stunning and user-friendly websites.</p>
-                 <div class="extra-info">
-                   <p>Specializing in custom designs, e-commerce platforms, and responsive solutions. We focus on usability, aesthetics, and functionality to create an outstanding user experience.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <!-- Repeat for other services -->
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">SEO Optimization</h3>
-                 <p class="card-text">Boost your site's visibility with tailored SEO strategies.</p>
-                 <div class="extra-info">
-                   <p>Includes on-page SEO, keyword research, technical audits, and link building. Our strategies enhance your website's performance and ranking in search engines.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">Content Marketing</h3>
-                 <p class="card-text">Creating compelling content that engages and converts.</p>
-                 <div class="extra-info">
-                   <p>Our services include blog writing, video production, and social media content. We craft content to resonate with your audience and drive engagement.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">Social Media Management</h3>
-                 <p class="card-text">Building brand awareness and engagement through social media.</p>
-                 <div class="extra-info">
-                   <p>We offer content creation, strategy, and community management for platforms like Facebook, Instagram, and LinkedIn.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">Email Marketing</h3>
-                 <p class="card-text">Effective email campaigns to nurture leads and retain customers.</p>
-                 <div class="extra-info">
-                   <p>We create personalized email campaigns, including list management, automation, and performance analytics.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-4">
-             <div class="card h-100 border-0 shadow-lg service-card">
-               <div class="card-body">
-                 <h3 class="card-title">Analytics and Reporting</h3>
-                 <p class="card-text">Detailed insights and reports on your marketing efforts.</p>
-                 <div class="extra-info">
-                   <p>Our analytics services include website analytics, social media monitoring, and campaign tracking to inform data-driven decisions.</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
+    <!-- Services Section -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Premium Services</h2>
+      <div class="row g-4">
+        <!-- Service Item: Website Development -->
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-lg service-card">
+            <div class="card-body">
+              <div class="icon mb-3">
+                <!-- SVG Icon from Heroicons -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 13h18M3 17h18M3 21h18M3 3h18"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Website Development</h3>
+              <p class="card-text">Creating visually stunning and user-friendly websites.</p>
+              <div class="extra-info">
+                <ul>
+                  <li>Custom website designs</li>
+                  <li>E-commerce platforms</li>
+                  <li>Responsive and mobile-friendly</li>
+                  <li>SEO optimized structure</li>
+                </ul>
+                <button class="btn btn-primary mt-3" onclick="updateContactForm('Website Development')">Enquire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other services... -->
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-lg service-card">
+            <div class="card-body">
+              <div class="icon mb-3">
+                <!-- SVG Icon from Heroicons -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h.01M13 9h-1m-4 1a5 5 0 1110 0 5 5 0 01-10 0z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">SEO Optimization</h3>
+              <p class="card-text">Boosting visibility and driving organic traffic.</p>
+              <div class="extra-info">
+                <ul>
+                  <li>On-page SEO</li>
+                  <li>Keyword research</li>
+                  <li>Technical audits</li>
+                  <li>Link building strategies</li>
+                </ul>
+                <button class="btn btn-primary mt-3" onclick="updateContactForm('SEO Optimization')">Enquire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-lg service-card">
+            <div class="card-body">
+              <div class="icon mb-3">
+                <!-- SVG Icon from Heroicons -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.105 0-2 .895-2 2s.895 2 2 2 2-.895 2-2-.895-2-2-2zm0-2c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Content Marketing</h3>
+              <p class="card-text">Engaging and converting your audience.</p>
+              <div class="extra-info">
+                <ul>
+                  <li>Blog writing</li>
+                  <li>Video production</li>
+                  <li>Social media content</li>
+                  <li>Content strategy</li>
+                </ul>
+                <button class="btn btn-primary mt-3" onclick="updateContactForm('Content Marketing')">Enquire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Additional services can be added here -->
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    function updateContactForm(service) {
+      document.querySelector('#contact-form select').value = service;
+    }
+  </script>
+  
    
      <!-- About Section -->
      <section id="about" class="py-5 bg-dark text-white">
