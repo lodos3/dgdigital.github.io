@@ -4,17 +4,10 @@ body {
 }
 
 .service-card {
-  height: 120px;
   overflow: hidden;
-  transition: height 0.5s ease, box-shadow 0.3s ease;
   border-radius: 10px;
   position: relative;
   background-color: #fff;
-}
-
-.service-card:hover, .service-card.in-view {
-  height: 480px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .service-card .icon {
@@ -38,14 +31,7 @@ body {
 }
 
 .extra-info {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.service-card:hover .extra-info, .service-card.in-view .extra-info {
-  opacity: 1;
-  transform: translateY(0);
+  display: none;
 }
 
 .card-footer {
