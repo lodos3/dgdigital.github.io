@@ -1,3 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3P2HRTRT3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E3P2HRTRT3');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="High-end digital marketing services including Website Development, SEO, Content Marketing, and more.">
+    <title>DGDigital - Premium Digital Marketing Agency</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">DGDigital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="vh-100 d-flex align-items-center text-center text-white bg-dark">
+        <div class="container">
+            <h1 class="display-4">Welcome to DGDigital</h1>
+            <p class="lead">Your trusted partner in digital transformation.</p>
+            <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+        </div>
+    </header>
+
 <!-- Services Section -->
 <section id="services" class="py-5 bg-light">
     <div class="container">
@@ -211,3 +263,55 @@
 
     document.addEventListener('scroll', revealOnScroll);
 </script>
+
+  
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">DGDigital offers top-notch digital marketing services, delivering personalized
+                strategies for online success.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <form id="contact-form" class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" required>
+                        <option selected disabled value="">Select Service</option>
+                        <option value="Website Development">Website Development</option>
+                        <option value="SEO">SEO</option>
+                        <option value="Content Marketing">Content Marketing</option>
+                        <option value="Social Media Management">Social Media Management</option>
+                        <option value="Email Marketing">Email Marketing</option>
+                        <option value="Analytics and Reporting">Analytics and Reporting</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 DGDigital. All rights reserved.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
