@@ -74,10 +74,9 @@
                         <p class="card-text">Creating visually stunning and user-friendly websites.</p>
                         <div class="extra-info mt-4">
                             <ul class="list-unstyled text-start">
-                                <li>Custom website designs</li>
-                                <li>E-commerce platforms</li>
-                                <li>Responsive and mobile-friendly</li>
-                                <li>SEO optimized structure</li>
+                                <li>- Custom website designs</li>
+                                <li>- Responsive and mobile-friendly</li>
+                                <li>- SEO optimized structure</li>
                             </ul>
                             <button class="btn btn-primary mt-3" onclick="updateContactForm('Website Development')">Enquire</button>
                         </div>
@@ -102,10 +101,9 @@
                         <p class="card-text">Boosting visibility and driving organic traffic.</p>
                         <div class="extra-info mt-4">
                             <ul class="list-unstyled text-start">
-                                <li>On-page SEO</li>
-                                <li>Keyword research</li>
-                                <li>Technical audits</li>
-                                <li>Link building strategies</li>
+                                <li>- On-page SEO</li>
+                                <li>- Keyword research</li>
+                                <li>- Link building strategies</li>
                             </ul>
                             <button class="btn btn-primary mt-3" onclick="updateContactForm('SEO Optimization')">Enquire</button>
                         </div>
@@ -128,10 +126,9 @@
                         <p class="card-text">Engaging and converting your audience.</p>
                         <div class="extra-info mt-4">
                             <ul class="list-unstyled text-start">
-                                <li>Blog writing</li>
-                                <li>Video production</li>
-                                <li>Social media content</li>
-                                <li>Content strategy</li>
+                                <li>- Blog writing</li>
+                                <li>- Social media content</li>
+                                <li>- Content strategy</li>
                             </ul>
                             <button class="btn btn-primary mt-3" onclick="updateContactForm('Content Marketing')">Enquire</button>
                         </div>
@@ -158,10 +155,9 @@
                         <p class="card-text">Building brand awareness and engagement.</p>
                         <div class="extra-info mt-4">
                             <ul class="list-unstyled text-start">
-                                <li>Content creation</li>
-                                <li>Social media strategy</li>
-                                <li>Community management</li>
-                                <li>Platform management (e.g., Facebook, Instagram, LinkedIn)</li>
+                                <li>- Content creation</li>
+                                <li>- Community management</li>
+                                <li>- Platform management (e.g., Facebook, Instagram, LinkedIn)</li>
                             </ul>
                             <button class="btn btn-primary mt-3" onclick="updateContactForm('Social Media Management')">Enquire</button>
                         </div>
@@ -183,10 +179,9 @@
                         <p class="card-text">Detailed insights and reports on your marketing efforts.</p>
                         <div class="extra-info mt-4">
                             <ul class="list-unstyled text-start">
-                                <li>Website analytics</li>
-                                <li>Social media monitoring</li>
-                                <li>Campaign tracking</li>
-                                <li>Data-driven strategy insights</li>
+                                <li>- Website analytics & reports</li>
+                                <li>- Social media monitoring</li>
+                                <li>- Data-driven strategy insights</li>
                             </ul>
                             <button class="btn btn-primary mt-3" onclick="updateContactForm('Analytics and Reporting')">Enquire</button>
                         </div>
@@ -198,10 +193,14 @@
 </section>
 
 <script>
-  function updateContactForm(service) {
-    document.querySelector('#contact-form select').value = service;
-  }
-</script>
+    function updateContactForm(service) {
+      // Set the value of the service in the contact form dropdown
+      document.querySelector('#contact-form select').value = service;
+      // Scroll down to the contact form smoothly
+      document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  
 
     <!-- About Section -->
     <section id="about" class="py-5 bg-dark text-white">
