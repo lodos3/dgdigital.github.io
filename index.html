@@ -263,26 +263,29 @@
             document.querySelector('#contact-form select').value = service;
             document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
         }
-    
+
         function centerServiceCards() {
             const serviceCards = document.querySelectorAll('.service-card');
             const windowHeight = window.innerHeight;
-    
+
             serviceCards.forEach(card => {
                 const rect = card.getBoundingClientRect();
                 const cardMiddle = rect.top + rect.height / 2;
-    
+
                 if (cardMiddle >= windowHeight * 0.25 && cardMiddle <= windowHeight * 0.75) {
-                    card.scrollIntoView({ behavior: 'auto', block: 'center' });
+                    const scrollOptions = {
+                        top: window.scrollY + rect.top - (windowHeight / 2 - rect.height / 2),
+                        left: 0,
+                        behavior: 'auto' // Instant snap
+                    };
+                    window.scrollTo(scrollOptions);
                 }
             });
         }
-    
+
         window.addEventListener('scroll', centerServiceCards);
         window.addEventListener('DOMContentLoaded', centerServiceCards);
     </script>
-    
-
 
     <!-- About Section -->
     <section id="about" class="py-5 bg-dark text-white">
