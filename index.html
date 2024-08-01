@@ -248,12 +248,11 @@
         document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
     }
 
-    // Reveal extra-info when in view for mobile
     function revealOnScroll() {
         const serviceCards = document.querySelectorAll('.service-card');
         serviceCards.forEach(card => {
             const rect = card.getBoundingClientRect();
-            if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            if (rect.top <= window.innerHeight && rect.bottom >= 0) {
                 card.classList.add('in-view');
             } else {
                 card.classList.remove('in-view');
@@ -261,10 +260,9 @@
         });
     }
 
-    document.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('DOMContentLoaded', revealOnScroll);
 </script>
-
-  
 
     <!-- About Section -->
     <section id="about" class="py-5 bg-dark text-white">
