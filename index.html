@@ -53,9 +53,8 @@
     <!-- Services Section -->
     <section id="services" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5 text-primary">Our Premium Services</h2>
+            <h2 class="text-center mb-4 text-primary">Our Premium Services</h2>
             <div class="row g-4">
-                <!-- Service Item: Website Development -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-1">
                         <div class="card-body text-center position-relative">
@@ -91,7 +90,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item: SEO Optimization -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-2">
                         <div class="card-body text-center position-relative">
@@ -126,7 +124,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item: Content Marketing -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-3">
                         <div class="card-body text-center position-relative">
@@ -158,7 +155,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item: Social Media Management -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-4">
                         <div class="card-body text-center position-relative">
@@ -191,11 +187,9 @@
                         </div>
                         <div class="card-footer text-center bg-primary text-white">
                             <small>Expand your brand's reach and impact</small>
-
                         </div>
                     </div>
                 </div>
-                <!-- Service Item: Email Marketing -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-5">
                         <div class="card-body text-center position-relative">
@@ -229,7 +223,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item: Analytics and Reporting -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card service-card border-0 shadow-lg" id="service-6">
                         <div class="card-body text-center position-relative">
@@ -279,7 +272,7 @@
                 const rect = card.getBoundingClientRect();
                 const cardMiddle = rect.top + rect.height / 2;
 
-                if (cardMiddle >= windowHeight * 0.25 && cardMiddle <= windowHeight * 0.85) {
+                if (cardMiddle >= windowHeight * 0.25 && cardMiddle <= windowHeight * 0.75) {
                     card.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
             });
@@ -290,18 +283,26 @@
     </script>
 
 
-<!-- About Section -->
-<section id="about" class="py-5 bg-dark text-white">
-    <div class="container">
-        <h2 class="text-center mb-4">About Us</h2>
-        <p class="text-center">
-            At DGDigital, we specialize in delivering premier digital marketing services designed to elevate your online presence. With a focus on personalized strategies, we cater to the unique needs of each client, ensuring comprehensive solutions that drive success in the digital landscape. Our expertise spans across website development, SEO optimization, content marketing, social media management, and more, all tailored to enhance brand visibility and foster engagement.
-        </p>
-        <p class="text-center">
-            We are committed to staying at the forefront of digital innovation, utilizing the latest technologies and trends to offer cutting-edge services. Whether you're looking to build a robust online platform, improve search engine rankings, or create compelling content, DGDigital provides the expertise and dedication to help your business thrive. Partner with us to unlock the full potential of your digital marketing efforts and achieve lasting growth and success.
-        </p>
-    </div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">
+                At DGDigital, we specialize in delivering premier digital marketing services designed to elevate your
+                online presence. With a focus on personalized strategies, we cater to the unique needs of each client,
+                ensuring comprehensive solutions that drive success in the digital landscape. Our expertise spans across
+                website development, SEO optimization, content marketing, social media management, and more, all
+                tailored to enhance brand visibility and foster engagement.
+            </p>
+            <p class="text-center">
+                We are committed to staying at the forefront of digital innovation, utilizing the latest technologies
+                and trends to offer cutting-edge services. Whether you're looking to build a robust online platform,
+                improve search engine rankings, or create compelling content, DGDigital provides the expertise and
+                dedication to help your business thrive. Partner with us to unlock the full potential of your digital
+                marketing efforts and achieve lasting growth and success.
+            </p>
+        </div>
+    </section>
 
 
     <!-- Contact Section -->
