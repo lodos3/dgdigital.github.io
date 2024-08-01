@@ -4,13 +4,13 @@ body {
 }
 
 .service-card {
-  height: 160px;
+  height: 120px;
   overflow: hidden;
   transition: height 0.3s ease, box-shadow 0.3s ease;
 }
 
-.service-card:hover {
-  height: 240px;
+.service-card:hover, .service-card.in-view {
+  height: 250px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -27,7 +27,8 @@ body {
   font-size: 1.25rem;
 }
 
-.service-card .card-text {
+.service-card .brief-info {
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -37,7 +38,7 @@ body {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.service-card:hover .extra-info {
+.service-card:hover .extra-info, .service-card.in-view .extra-info {
   opacity: 1;
   transform: translateY(0);
 }
