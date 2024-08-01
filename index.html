@@ -1,64 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3P2HRTRT3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-E3P2HRTRT3');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="High-end digital marketing services including Website Development, SEO, Content Marketing, and more.">
-    <title>DGDigital - Premium Digital Marketing Agency</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">DGDigital</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="hero" class="vh-100 d-flex align-items-center text-center text-white bg-dark">
-        <div class="container">
-            <h1 class="display-4">Welcome to DGDigital</h1>
-            <p class="lead">Your trusted partner in digital transformation.</p>
-            <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
-        </div>
-    </header>
-
 <!-- Services Section -->
 <section id="services" class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center mb-5">Our Premium Services</h2>
+        <h2 class="text-center mb-5 text-primary">Our Premium Services</h2>
         <div class="row g-4">
             <!-- Service Item: Website Development -->
             <div class="col-lg-4 col-md-6">
                 <div class="card service-card border-0 shadow-lg">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center position-relative">
                         <div class="icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package-plus">
                                 <path d="M16 16h6" />
@@ -69,26 +17,28 @@
                                 <line x1="12" x2="12" y1="22" y2="12" />
                             </svg>
                         </div>
-                        <h3 class="card-title">Website Development</h3>
-                        <p class="card-text brief-info">Visually stunning and user-friendly websites.</p>
-                        <div class="extra-info mt-3">
-                            <p class="card-text">Our services include:</p>
-                            <ul class="list-unstyled text-start">
-                                <li>- Custom website designs</li>
-                                <li>- E-commerce platforms</li>
-                                <li>- Responsive and mobile-friendly</li>
-                                <li>- SEO optimized structure</li>
+                        <h3 class="card-title text-dark">Website Development</h3>
+                        <p class="card-text brief-info text-muted">Visually stunning and user-friendly websites.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>Custom website designs</li>
+                                <li>E-commerce platforms</li>
+                                <li>Responsive and mobile-friendly</li>
+                                <li>SEO optimized structure</li>
                             </ul>
                         </div>
                         <button class="btn btn-primary mt-3" onclick="updateContactForm('Website Development')">Enquire</button>
                     </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Professional web development solutions</small>
+                    </div>
                 </div>
             </div>
-            <!-- Repeat for other services... -->
             <!-- Service Item: SEO Optimization -->
             <div class="col-lg-4 col-md-6">
                 <div class="card service-card border-0 shadow-lg">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center position-relative">
                         <div class="icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-snail">
                                 <path d="M2 13a6 6 0 1 0 12 0 4 4 0 1 0-8 0 2 2 0 0 0 4 0" />
@@ -98,22 +48,144 @@
                                 <path d="M22 3 20.9 5.2" />
                             </svg>
                         </div>
-                        <h3 class="card-title">SEO Optimization</h3>
-                        <p class="card-text brief-info">Boosting visibility and driving organic traffic.</p>
-                        <div class="extra-info mt-3">
-                            <p class="card-text">Our services include:</p>
-                            <ul class="list-unstyled text-start">
-                                <li>- On-page SEO</li>
-                                <li>- Keyword research</li>
-                                <li>- Technical audits</li>
-                                <li>- Link building strategies</li>
+                        <h3 class="card-title text-dark">SEO Optimization</h3>
+                        <p class="card-text brief-info text-muted">Boosting visibility and driving organic traffic.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>On-page SEO</li>
+                                <li>Keyword research</li>
+                                <li>Technical audits</li>
+                                <li>Link building strategies</li>
                             </ul>
                         </div>
                         <button class="btn btn-primary mt-3" onclick="updateContactForm('SEO Optimization')">Enquire</button>
                     </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Maximize your online presence</small>
+                    </div>
                 </div>
             </div>
-            <!-- Continue with other services... -->
+            <!-- Service Item: Content Marketing -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card service-card border-0 shadow-lg">
+                    <div class="card-body text-center position-relative">
+                        <div class="icon mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-volume-2">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title text-dark">Content Marketing</h3>
+                        <p class="card-text brief-info text-muted">Engaging and converting your audience.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>Blog writing</li>
+                                <li>Video production</li>
+                                <li>Social media content</li>
+                                <li>Content strategy</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary mt-3" onclick="updateContactForm('Content Marketing')">Enquire</button>
+                    </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Engage and convert with quality content</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item: Social Media Management -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card service-card border-0 shadow-lg">
+                    <div class="card-body text-center position-relative">
+                        <div class="icon mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-waypoints">
+                                <circle cx="12" cy="4.5" r="2.5" />
+                                <path d="m10.2 6.3-3.9 3.9" />
+                                <circle cx="4.5" cy="12" r="2.5" />
+                                <path d="M7 12h10" />
+                                <circle cx="19.5" cy="12" r="2.5" />
+                                <path d="m13.8 17.7 3.9-3.9" />
+                                <circle cx="12" cy="19.5" r="2.5" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title text-dark">Social Media Management</h3>
+                        <p class="card-text brief-info text-muted">Building brand awareness and engagement.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>Content creation</li>
+                                <li>Social media strategy</li>
+                                <li>Community management</li>
+                                <li>Platform management (e.g., Facebook, Instagram, LinkedIn)</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary mt-3" onclick="updateContactForm('Social Media Management')">Enquire</button>
+                    </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Expand your brand's reach and impact</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item: Email Marketing -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card service-card border-0 shadow-lg">
+                    <div class="card-body text-center position-relative">
+                        <div class="icon mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-envelope-open">
+                                <path d="M22 12v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8" />
+                                <path d="M12 22V15m0 0L3 9l9-6 9 6-9 6" />
+                                <path d="M12 15l9-6" />
+                                <path d="M22 6l-10 7L2 6" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title text-dark">Email Marketing</h3>
+                        <p class="card-text brief-info text-muted">Effective campaigns to nurture leads and retain customers.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>Personalized email campaigns</li>
+                                <li>List management</li>
+                                <li>Automation</li>
+                                <li>Performance analytics</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary mt-3" onclick="updateContactForm('Email Marketing')">Enquire</button>
+                    </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Engage your audience with impactful emails</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item: Analytics and Reporting -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card service-card border-0 shadow-lg">
+                    <div class="card-body text-center position-relative">
+                        <div class="icon mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pie-chart">
+                                <path d="M12 3v9h9" />
+                                <path d="M3 12a9 9 0 0 1 9-9v9H3a9 9 0 0 0 0 18 9 9 0 0 0 9-9z" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title text-dark">Analytics and Reporting</h3>
+                        <p class="card-text brief-info text-muted">Detailed insights and reports on your marketing efforts.</p>
+                        <div class="extra-info mt-3 text-start">
+                            <p class="text-dark"><strong>Our services include:</strong></p>
+                            <ul class="list-unstyled">
+                                <li>Website analytics & reports</li>
+                                <li>Social media monitoring</li>
+                                <li>Campaign tracking</li>
+                                <li>Data-driven strategy insights</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary mt-3" onclick="updateContactForm('Analytics and Reporting')">Enquire</button>
+                    </div>
+                    <div class="card-footer text-center bg-primary text-white">
+                        <small>Make informed decisions with accurate data</small>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -139,55 +211,3 @@
 
     document.addEventListener('scroll', revealOnScroll);
 </script>
-
-  
-
-    <!-- About Section -->
-    <section id="about" class="py-5 bg-dark text-white">
-        <div class="container">
-            <h2 class="text-center mb-4">About Us</h2>
-            <p class="text-center">DGDigital offers top-notch digital marketing services, delivering personalized
-                strategies for online success.</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Get in Touch</h2>
-            <form id="contact-form" class="mx-auto" style="max-width: 600px;">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Your Name" required>
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Your Email" required>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" required>
-                        <option selected disabled value="">Select Service</option>
-                        <option value="Website Development">Website Development</option>
-                        <option value="SEO">SEO</option>
-                        <option value="Content Marketing">Content Marketing</option>
-                        <option value="Social Media Management">Social Media Management</option>
-                        <option value="Email Marketing">Email Marketing</option>
-                        <option value="Analytics and Reporting">Analytics and Reporting</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>© 2024 DGDigital. All rights reserved.</p>
-    </footer>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
-</html>

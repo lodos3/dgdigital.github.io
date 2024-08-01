@@ -4,13 +4,14 @@ body {
 }
 
 .service-card {
-  height: 120px;
+  height: 150px;
   overflow: hidden;
   transition: height 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
 }
 
 .service-card:hover, .service-card.in-view {
-  height: 250px;
+  height: 320px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -24,12 +25,12 @@ body {
 }
 
 .service-card .card-title {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 
 .service-card .brief-info {
   font-size: 1rem;
-  margin-bottom: 0.5rem;
+  color: #6c757d;
 }
 
 .extra-info {
@@ -41,4 +42,14 @@ body {
 .service-card:hover .extra-info, .service-card.in-view .extra-info {
   opacity: 1;
   transform: translateY(0);
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  font-size: 0.9rem;
 }
