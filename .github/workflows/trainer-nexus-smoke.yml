@@ -1,0 +1,10 @@
+name: Trainer Nexus smoke
+on:
+  push:
+    branches:
+      - trainer-nexus-foundation-build
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "runner-ok"
